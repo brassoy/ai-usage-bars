@@ -1,0 +1,86 @@
+{
+  "extension_name": { "message": "AI Usage Bars — for Claude.ai" },
+  "extension_description": { "message": "Toolbar usage bars for your Claude.ai session and weekly limits. Unofficial, your data never leaves the browser." },
+  "star_on_github": { "message": "⭐ Star on GitHub" },
+  "popup_title": { "message": "Usage" },
+  "refresh": { "message": "Refresh" },
+  "settings": { "message": "Settings" },
+  "no_data_yet": { "message": "No data yet" },
+  "provider_no_data": { "message": "No data yet — waiting for first fetch." },
+  "updated_ago": {
+    "message": "Updated $RELATIVE$",
+    "placeholders": { "relative": { "content": "$1" } }
+  },
+  "just_now": { "message": "just now" },
+  "seconds_ago": {
+    "message": "$N$s ago",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "minutes_ago": {
+    "message": "$N$m ago",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "hours_ago": {
+    "message": "$N$h ago",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "not_signed_in": { "message": "Not signed in." },
+  "open_provider": {
+    "message": "Open $NAME$",
+    "placeholders": { "name": { "content": "$1" } }
+  },
+  "session_5h": { "message": "Session (5h)" },
+  "weekly": { "message": "Weekly" },
+  "session_in": {
+    "message": "session in $UNTIL$",
+    "placeholders": { "until": { "content": "$1" } }
+  },
+  "weekly_in": {
+    "message": "weekly in $UNTIL$",
+    "placeholders": { "until": { "content": "$1" } }
+  },
+  "time_now": { "message": "now" },
+  "time_m": {
+    "message": "$N$m",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "time_h": {
+    "message": "$N$h",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "time_h_m": {
+    "message": "$H$h $M$m",
+    "placeholders": { "h": { "content": "$1" }, "m": { "content": "$2" } }
+  },
+  "time_d": {
+    "message": "$N$d",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "time_d_h": {
+    "message": "$D$d $H$h",
+    "placeholders": { "d": { "content": "$1" }, "h": { "content": "$2" } }
+  },
+  "tooltip_waiting": { "message": "Usage — waiting for data" },
+  "tooltip_format": {
+    "message": "$NAME$ — session $S$% · weekly $W$%",
+    "placeholders": {
+      "name": { "content": "$1" },
+      "s": { "content": "$2" },
+      "w": { "content": "$3" }
+    }
+  },
+  "tooltip_sign_in": {
+    "message": "$NAME$ — sign in at $URL$",
+    "placeholders": {
+      "name": { "content": "$1" },
+      "url": { "content": "$2" }
+    }
+  },
+  "options_title": { "message": "Settings" },
+  "options_interval_label": { "message": "Refresh interval" },
+  "options_interval_hint": { "message": "How often to poll Claude for usage data." },
+  "options_interval_1": { "message": "Every 1 minute" },
+  "options_interval_5": { "message": "Every 5 minutes" },
+  "options_interval_15": { "message": "Every 15 minutes" },
+  "options_saved": { "message": "Saved." }
+}

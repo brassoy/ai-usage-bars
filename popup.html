@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="popup_title">Usage</title>
+    <link rel="stylesheet" href="/src/popup/popup.css" />
+  </head>
+  <body>
+    <main id="root">
+      <header class="header">
+        <h1 data-i18n="popup_title">Usage</h1>
+        <button id="refresh" class="refresh-btn" data-i18n="refresh" data-i18n-target="title aria-label">↻</button>
+      </header>
+      <section id="providers" class="providers"></section>
+      <footer class="footer">
+        <div class="footer-row">
+          <span id="updated">—</span>
+          <a id="open-options" href="#" data-i18n="settings">Settings</a>
+        </div>
+        <div class="footer-row credits">
+          <a class="credit-link" href="https://www.linkedin.com/in/pabloruizsanmiguel/" target="_blank" rel="noopener">Pablo Ruiz</a>
+          <a class="credit-link star" href="https://github.com/brassoy/ai-usage-bars" target="_blank" rel="noopener" data-i18n="star_on_github">⭐ Star on GitHub</a>
+        </div>
+      </footer>
+    </main>
+    <script type="module" src="/src/popup/popup.ts"></script>
+  </body>
+</html>

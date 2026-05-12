@@ -1,0 +1,23 @@
+{
+  "name": "usage-extension",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome extension that shows toolbar usage bars for Claude.ai.",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "typecheck": "tsc -b",
+    "icons": "tsx scripts/generate-icons.ts",
+    "package": "npm run icons && npm run typecheck && npm run build && tsx scripts/package.ts"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.42",
+    "@types/node": "^25.7.0",
+    "@types/pngjs": "^6.0.5",
+    "pngjs": "^7.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.12"
+  }
+}

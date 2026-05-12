@@ -1,0 +1,86 @@
+{
+  "extension_name": { "message": "AI Usage Bars — for Claude.ai" },
+  "extension_description": { "message": "Claude.ai のセッションと週次上限を表示するツールバー拡張機能。非公式、データはブラウザ外に出ません。" },
+  "star_on_github": { "message": "⭐ GitHubでスター" },
+  "popup_title": { "message": "使用量" },
+  "refresh": { "message": "更新" },
+  "settings": { "message": "設定" },
+  "no_data_yet": { "message": "データなし" },
+  "provider_no_data": { "message": "まだデータがありません — 初回取得を待っています。" },
+  "updated_ago": {
+    "message": "更新: $RELATIVE$",
+    "placeholders": { "relative": { "content": "$1" } }
+  },
+  "just_now": { "message": "たった今" },
+  "seconds_ago": {
+    "message": "$N$ 秒前",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "minutes_ago": {
+    "message": "$N$ 分前",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "hours_ago": {
+    "message": "$N$ 時間前",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "not_signed_in": { "message": "ログインしていません。" },
+  "open_provider": {
+    "message": "$NAME$ を開く",
+    "placeholders": { "name": { "content": "$1" } }
+  },
+  "session_5h": { "message": "セッション (5時間)" },
+  "weekly": { "message": "週次" },
+  "session_in": {
+    "message": "セッション残り $UNTIL$",
+    "placeholders": { "until": { "content": "$1" } }
+  },
+  "weekly_in": {
+    "message": "週次残り $UNTIL$",
+    "placeholders": { "until": { "content": "$1" } }
+  },
+  "time_now": { "message": "今" },
+  "time_m": {
+    "message": "$N$ 分",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "time_h": {
+    "message": "$N$ 時間",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "time_h_m": {
+    "message": "$H$ 時間 $M$ 分",
+    "placeholders": { "h": { "content": "$1" }, "m": { "content": "$2" } }
+  },
+  "time_d": {
+    "message": "$N$ 日",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "time_d_h": {
+    "message": "$D$ 日 $H$ 時間",
+    "placeholders": { "d": { "content": "$1" }, "h": { "content": "$2" } }
+  },
+  "tooltip_waiting": { "message": "使用量 — データ待機中" },
+  "tooltip_format": {
+    "message": "$NAME$ — セッション $S$% · 週次 $W$%",
+    "placeholders": {
+      "name": { "content": "$1" },
+      "s": { "content": "$2" },
+      "w": { "content": "$3" }
+    }
+  },
+  "tooltip_sign_in": {
+    "message": "$NAME$ — $URL$ でログイン",
+    "placeholders": {
+      "name": { "content": "$1" },
+      "url": { "content": "$2" }
+    }
+  },
+  "options_title": { "message": "設定" },
+  "options_interval_label": { "message": "更新間隔" },
+  "options_interval_hint": { "message": "Claude を確認する頻度。" },
+  "options_interval_1": { "message": "1 分ごと" },
+  "options_interval_5": { "message": "5 分ごと" },
+  "options_interval_15": { "message": "15 分ごと" },
+  "options_saved": { "message": "保存しました。" }
+}

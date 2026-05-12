@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="options_title">Settings</title>
+    <link rel="stylesheet" href="/src/options/options.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 data-i18n="options_title">Settings</h1>
+
+      <section class="field">
+        <label for="interval" data-i18n="options_interval_label">Refresh interval</label>
+        <select id="interval">
+          <option value="1" data-i18n="options_interval_1">Every 1 minute</option>
+          <option value="5" selected data-i18n="options_interval_5">Every 5 minutes</option>
+          <option value="15" data-i18n="options_interval_15">Every 15 minutes</option>
+        </select>
+        <p class="hint" data-i18n="options_interval_hint">How often to poll Claude for usage data.</p>
+      </section>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </main>
+    <script type="module" src="/src/options/options.ts"></script>
+  </body>
+</html>
