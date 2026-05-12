@@ -2,7 +2,7 @@
 
 > Visualiza el consumo de tu cuenta de Claude.ai directamente en la barra de herramientas de Chrome: sesión (5h) y límite semanal, de un vistazo.
 
-[![Versión](https://img.shields.io/badge/versión-0.3.0-7c6df5)](https://github.com/brassoy/ai-usage-bars/releases)
+[![Versión](https://img.shields.io/badge/versión-0.3.1-7c6df5)](https://github.com/brassoy/ai-usage-bars/releases)
 [![Manifest](https://img.shields.io/badge/manifest-v3-blue)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-green)](LICENSE)
 [![No oficial](https://img.shields.io/badge/no%20oficial-no%20afiliado%20a%20Anthropic-orange)]()
