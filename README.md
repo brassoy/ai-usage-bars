@@ -2,7 +2,9 @@
 
 > Visualiza el consumo de tu cuenta de Claude.ai directamente en la barra de herramientas de Chrome: sesión (5h) y límite semanal, de un vistazo.
 
-[![Versión](https://img.shields.io/badge/versión-0.3.1-7c6df5)](https://github.com/brassoy/ai-usage-bars/releases)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hjoibcighplbeihnhphjipfobpaihekd?label=Chrome%20Web%20Store&color=7c6df5)](https://chromewebstore.google.com/detail/ai-usage-bars-%E2%80%94-for-claud/hjoibcighplbeihnhphjipfobpaihekd)
+[![Usuarios](https://img.shields.io/chrome-web-store/users/hjoibcighplbeihnhphjipfobpaihekd?label=usuarios&color=3fb950)](https://chromewebstore.google.com/detail/ai-usage-bars-%E2%80%94-for-claud/hjoibcighplbeihnhphjipfobpaihekd)
+[![Valoración](https://img.shields.io/chrome-web-store/rating/hjoibcighplbeihnhphjipfobpaihekd?label=valoración&color=d29922)](https://chromewebstore.google.com/detail/ai-usage-bars-%E2%80%94-for-claud/hjoibcighplbeihnhphjipfobpaihekd)
 [![Manifest](https://img.shields.io/badge/manifest-v3-blue)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-green)](LICENSE)
 [![No oficial](https://img.shields.io/badge/no%20oficial-no%20afiliado%20a%20Anthropic-orange)]()
@@ -44,7 +46,9 @@ La extensión se adapta automáticamente al idioma del navegador. Aquí dos de l
 
 ### Desde Chrome Web Store (recomendado)
 
-> 🚧 **Pendiente de aprobación.** Cuando esté publicada se añadirá aquí el enlace directo.
+👉 **[Instalar AI Usage Bars desde la Chrome Web Store](https://chromewebstore.google.com/detail/ai-usage-bars-%E2%80%94-for-claud/hjoibcighplbeihnhphjipfobpaihekd)**
+
+Un solo clic y listo. Las actualizaciones llegan automáticamente.
 
 ### Manualmente (modo desarrollador)
 
