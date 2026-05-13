@@ -103,25 +103,18 @@ Si tu idioma no está en la lista, la extensión usará inglés por defecto. ¿Q
 
 ## Compilar desde el código fuente
 
-Requisitos: Node.js 20+.
+Para desarrolladores: clonado, build, debug y release.
+
+📖 **Guía completa**: [`BUILDING.md`](BUILDING.md) — comandos, estructura, troubleshooting, cómo añadir idiomas, cómo lanzar versiones.
+
+Quickstart:
 
 ```bash
 git clone https://github.com/brassoy/ai-usage-bars.git
 cd ai-usage-bars
 npm install
+npm run build   # output en dist/, cárgala descomprimida en chrome://extensions
 ```
-
-Comandos disponibles:
-
-```bash
-npm run dev          # Build en modo watch (rebuild en cada cambio)
-npm run build        # Build de producción → dist/
-npm run typecheck    # Comprobación de tipos con TypeScript
-npm run icons        # Regenera los iconos PNG (16/32/48/128)
-npm run package      # icons + typecheck + build + zip → releases/
-```
-
-Tras `npm run dev` o `npm run build`, carga la carpeta `dist/` como extensión descomprimida en `chrome://extensions`.
 
 ## Estructura del proyecto
 

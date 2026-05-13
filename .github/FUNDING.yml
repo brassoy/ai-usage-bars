@@ -1,0 +1,12 @@
+# Funding sources displayed as a "Sponsor" button on the repo.
+# Docs: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+# GitHub Sponsors — requires activating it at https://github.com/sponsors/brassoy
+github: brassoy
+
+# Other platforms (uncomment + fill if you set them up):
+# patreon: pabloruiz
+# ko_fi: pabloruiz
+# buy_me_a_coffee: pabloruiz
+# liberapay: pabloruiz
+# custom: ["https://example.com/donate"]
